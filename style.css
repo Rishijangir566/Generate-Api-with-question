@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+   color: aliceblue;
+}
 form{
     display: flex;
     justify-content: center;
@@ -12,13 +16,23 @@ form{
 form input,select,button{
     margin: 0 1rem;
     padding: 5px 02px;
+    font-size: 1rem;
 }
 form button{
-    padding: 5px 2rem;
+    padding: 8px 2rem;
+    background-color: rgb(25, 113, 3);
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
 }
-.question .quesAns{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
+.question .questions  {
+    margin:2rem 8rem;
+     font-size: 1.4rem;
+     color: red;
+}
+
+li.option {
+    margin:0.7rem 10rem;
+    font-size: 1.2rem;
+    color: aliceblue;
 }
